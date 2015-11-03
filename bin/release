@@ -26,6 +26,8 @@ payload = {
   'addons'                => [],
   'config_vars'           => {},
   'default_process_types' => {}
-}.to_yaml
+}
+
+puts payload.to_yaml
 
 exit 0
