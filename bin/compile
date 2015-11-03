@@ -22,3 +22,5 @@ $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 
 build_dir = ARGV[0]
 puts build_dir
+
+exit 0

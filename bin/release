@@ -22,4 +22,10 @@ $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 
 build_dir = ARGV[0]
 
-puts "OK"
+payload = {
+  'addons'                => [],
+  'config_vars'           => {},
+  'default_process_types' => {}
+}.to_yaml
+
+exit 0
